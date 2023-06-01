@@ -1,0 +1,986 @@
+====[2023/05/31 08:17:03 /J13801440/T3/C2.1/fxh@vanws1882 on vanc548b4 ]====
+
+WARN (vanc548b4) limiting memory to 64G and total size to 64G
+DNeg: tcsh -f -c "setenv SHOW NYAD; setenv SHOT sw2_109_0950;  setenv DN_SHOT_PATH /jobs/NYAD/sw2_109_0950; setenv DN_SHOT_PATHL /hosts/vanws1882/user_data/NYAD/sw2_109_0950;bob-world /builds/world/0185d17b59 -- dnhoudini  hserver -S houdini-license;bob-world /builds/world/0185d17b59 -- dnhoudini  hscript -R -w -j 24 -c 'set -g ELEM=fx_sw2_109_0950_ocean \n set -g VER=001 \n set -g TAKE=01 \n set -g TFSTART=1033 \n set -g TFEND=1103 \n set GEOMOUTWRITEZEN=0 \n set GEOMOUTWRITEABC=0 \n dneg_geometry_render.cmd 1033 1103 1 /out/WaveTankFlipSim' -v -q -i /jobs/NYAD/sw2_109_0950/source/bch/BCH_sw2_109_0950_fx_slice_0_WaveTankFlipSim_0_lod500_v001/script/BCH_sw2_109_0950_fx_slice_0_WaveTankFlipSim_0_lod500_v001.hip"
+License server is already set to houdini-license.
+[thread 40300] [default] [E] Type 'N4loom6BufferIhSaIhEEE' already has type name 'BufferUnsignedChar'
+[thread 40300] [default] [E] Type 'N4loom6BufferIcSaIcEEE' already has type name 'BufferChar'
+[thread 40300] [default] [E] Type 'N4loom6BufferIsSaIsEEE' already has type name 'BufferShort'
+[thread 40300] [default] [E] Type 'N4loom6BufferImSaImEEE' already has type name 'BufferUnsignedInt'
+[thread 40300] [default] [E] Type 'N4loom6BufferIiSaIiEEE' already has type name 'BufferInt'
+[thread 40300] [default] [E] Type 'N4loom6BufferIaSaIaEEE' already has type name 'BufferInt8'
+[thread 40300] [default] [E] Type 'N4loom6BufferIfSaIfEEE' already has type name 'BufferFloat'
+[thread 40300] [default] [E] Type 'N4loom6BufferIdSaIdEEE' already has type name 'BufferDouble'
+[thread 40300] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi2ELi1ELi0ELi2ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec2'
+[thread 40300] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi2ELi1ELi0ELi2ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec2d'
+[thread 40300] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi3ELi1ELi0ELi3ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec3'
+[thread 40300] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi3ELi1ELi0ELi3ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec3d'
+[thread 40300] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi4ELi1ELi0ELi4ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec4'
+[thread 40300] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi4ELi1ELi0ELi4ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec4d'
+[thread 40300] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi2ELi2ELi0ELi2ELi2EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat22'
+[thread 40300] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi2ELi2ELi0ELi2ELi2EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat22d'
+[thread 40300] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi3ELi3ELi0ELi3ELi3EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat33'
+[thread 40300] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi3ELi3ELi0ELi3ELi3EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat33d'
+[thread 40300] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi4ELi4ELi0ELi4ELi4EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat44'
+[thread 40300] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi4ELi4ELi0ELi4ELi4EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat44d'
+[thread 40300] [default] [E] Type 'N4loom6BufferIN5Eigen9TransformIfLi2ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferMat33'
+[thread 40300] [default] [E] Type 'N4loom6BufferIN5Eigen9TransformIdLi2ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferMat33d'
+[thread 40300] [default] [E] Type 'N4loom6BufferIN5Eigen9TransformIfLi3ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferMat44'
+[thread 40300] [default] [E] Type 'N4loom6BufferIN5Eigen9TransformIdLi3ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferMat44d'
+[thread 40300] [default] [E] Type 'N4loom9AttributeIhSaIhEEE' already has type name 'AttributeUnsignedChar'
+[thread 40300] [default] [E] Type 'N4loom9AttributeIcSaIcEEE' already has type name 'AttributeChar'
+[thread 40300] [default] [E] Type 'N4loom9AttributeIsSaIsEEE' already has type name 'AttributeShort'
+[thread 40300] [default] [E] Type 'N4loom9AttributeImSaImEEE' already has type name 'AttributeUnsignedInt'
+[thread 40300] [default] [E] Type 'N4loom9AttributeIiSaIiEEE' already has type name 'AttributeInt'
+[thread 40300] [default] [E] Type 'N4loom9AttributeIaSaIaEEE' already has type name 'AttributeInt8'
+[thread 40300] [default] [E] Type 'N4loom9AttributeIfSaIfEEE' already has type name 'AttributeFloat'
+[thread 40300] [default] [E] Type 'N4loom9AttributeIdSaIdEEE' already has type name 'AttributeDouble'
+[thread 40300] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi2ELi1ELi0ELi2ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec2'
+[thread 40300] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi2ELi1ELi0ELi2ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec2d'
+[thread 40300] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi3ELi1ELi0ELi3ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec3'
+[thread 40300] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi3ELi1ELi0ELi3ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec3d'
+[thread 40300] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi4ELi1ELi0ELi4ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec4'
+[thread 40300] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi4ELi1ELi0ELi4ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec4d'
+[thread 40300] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi2ELi2ELi0ELi2ELi2EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat22'
+[thread 40300] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi2ELi2ELi0ELi2ELi2EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat22d'
+[thread 40300] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi3ELi3ELi0ELi3ELi3EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat33'
+[thread 40300] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi3ELi3ELi0ELi3ELi3EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat33d'
+[thread 40300] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi4ELi4ELi0ELi4ELi4EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat44'
+[thread 40300] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi4ELi4ELi0ELi4ELi4EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat44d'
+[thread 40300] [default] [E] Type 'N4loom9AttributeIN5Eigen9TransformIfLi2ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeMat33'
+[thread 40300] [default] [E] Type 'N4loom9AttributeIN5Eigen9TransformIdLi2ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeMat33d'
+[thread 40300] [default] [E] Type 'N4loom9AttributeIN5Eigen9TransformIfLi3ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeMat44'
+[thread 40300] [default] [E] Type 'N4loom9AttributeIN5Eigen9TransformIdLi3ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeMat44d'
+[thread 40300] [default] [E] Type 'N4loom12NullGeometryE' already has type name 'NullGeometry'
+[thread 40300] [default] [E] Type 'N4loom9PointDataE' already has type name 'PointData'
+[thread 40300] [default] [E] Type 'N4loom11PolygonMeshE' already has type name 'PolygonMesh'
+[thread 40300] [default] [E] Type 'N4loom5CurveE' already has type name 'Curve'
+[thread 40300] [default] [E] Type 'N4loom13BezierSurfaceE' already has type name 'BezierSurface'
+[thread 40300] [default] [E] Type 'N4loom14MultiWeightSetE' already has type name 'Weightmap'
+[thread 40300] [default] [E] Type 'N4loom9WeightSetE' already has type name 'WeightSet'
+[thread 40300] [default] [E] Type 'N4loom5ImageE' already has type name 'Image'
+[thread 40300] [default] [E] Type 'N4loom7Shape2dE' already has type name 'Shape2d'
+[thread 40300] [default] [E] Type 'N4loom7Shape2d10ParametersE' already has type name 'Shape2d::Parameters'
+dnhou log file : /user_data/.tmp/Houdini_Startup_dnhou_805735c9-750f-4c65-b8cb-dcd53cdc9113.log
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/asset_packages/references/__init__.py:11: RuntimeWarning: to-Python converter for std::vector<std::string, std::allocator<std::string> > already registered; second conversion method ignored.
+  from . import AssetPackages_References_py as _importedModule
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/asset_packages/references/__init__.py:11: RuntimeWarning: to-Python converter for std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > > already registered; second conversion method ignored.
+  from . import AssetPackages_References_py as _importedModule
+/obj/rendersettings1/nyad_ropnet/environment_underwater_volume_L010_VOLUME Warning(1749): incorrect number of #s in 'round_value' for multiparm depth of 1
+<internal> Warning(1583): incorrect number of #s in 'round_value' for multiparm depth of 1
+/obj/rendersettings1/nyad_ropnet/environment_ocean_L010_BEAUTY Warning(1811): incorrect number of #s in 'round_value' for multiparm depth of 1
+<internal> Warning(1645): incorrect number of #s in 'round_value' for multiparm depth of 1
+Start logging astrohoudini to [astrohoudini]
+Skipping OTL installation
+In /tools/SITE/bundles/houdini-qlib/stable/0.2.16-r5-H18_0/houdini/18.0/scripts/456_dnpkg.cmd
+Sourcing /tools/SITE/bundles/houdini-qlib/stable/0.2.16-r5-H18_0/houdini/18.0/scripts/python/456_dnpkg.py
+Skipping OTL installation
+In /tools/SITE/bundles/houdini-qlib/stable/0.2.16-r5-H18_0/houdini/18.0/scripts/456_dnpkg.cmd
+Sourcing /tools/SITE/bundles/houdini-qlib/stable/0.2.16-r5-H18_0/houdini/18.0/scripts/python/456_dnpkg.py
+Couldn't find show based dependency at: /tools/NYAD/houdini/renderpass/config.json
+Found dependency at /tools/SITE/bundles/houdini-tdtools/stable/4.0.10-H18_0/houdini/renderpass/config.json
+Couldn't find show based dependency at: /tools/NYAD/houdini/renderpass/config.json
+Found dependency at /tools/SITE/bundles/houdini-tdtools/stable/4.0.10-H18_0/houdini/renderpass/config.json
+[dnhou.library_otls_startup:INFO ] Current Task (fx) does not match (groom), no Groom LIBRARY OTLs will be loaded.
+[dnhou.library_otls_startup:INFO ] Hidden 7 operator types (to be replaced by LIBRARY nodes): dneg::guideProcessDn::1.1, draw_rachis, feather_preview, feather_rotation_noise, generate_feather_groom, make_feather_sim_geo, make_feather_sim_geo::2
+[dnhou.library_otls_startup:INFO ] Current Task (fx) does not match (groom), no Groom LIBRARY OTLs will be loaded.
+[dnhou.library_otls_startup:INFO ] Hidden 7 operator types (to be replaced by LIBRARY nodes): dneg::guideProcessDn::1.1, draw_rachis, feather_preview, feather_rotation_noise, generate_feather_groom, make_feather_sim_geo, make_feather_sim_geo::2
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/pxr/Tf/__init__.py:85: RuntimeWarning: to-Python converter for std::vector<unsigned int, std::allocator<unsigned int> > already registered; second conversion method ignored.
+  from . import _tf
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/pxr/Tf/__init__.py:85: RuntimeWarning: to-Python converter for std::vector<double, std::allocator<double> > already registered; second conversion method ignored.
+  from . import _tf
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/pxr/Tf/__init__.py:85: RuntimeWarning: to-Python converter for std::vector<std::string, std::allocator<std::string> > already registered; second conversion method ignored.
+  from . import _tf
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/pxr/Tf/__init__.py:85: RuntimeWarning: to-Python converter for std::set<int, std::less<int>, std::allocator<int> > already registered; second conversion method ignored.
+  from . import _tf
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/pxr/Sdf/__init__.py:24: RuntimeWarning: to-Python converter for std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > > already registered; second conversion method ignored.
+  import _sdf
+
+[dnhou.cacheout:INFO ] Unlocking CacheOut '/out/WaveTankFlipSim'.
+May 31 08:21:23 : vanc548b4 : houdini : _hou_geo : ================== rendering frame 1033 ==================
+
+40300: Fatal error: Segmentation fault (sent by pid 72)
+-- TRACEBACK BEGIN --
+Traceback from hbatch 18.0.774 (Compiled on linux-x86_64-gcc6.3):
+stackTrace() <libHoudiniUT.so>
+signalCallback(UTsignalHandlerArg) <libHoudiniUT.so>
+UT_Signal::UT_ComboSignalHandler::operator()(int, siginfo_t*, void*) const <libHoudiniUT.so>
+UT_Signal::processSignal(int, siginfo_t*, void*) <libHoudiniUT.so>
+_L_unlock_13 <libpthread.so.0>
+UT_VoxelArray<int>::deleteVoxels() <libHoudiniUT.so>
+UT_VoxelArray<int>::size(int, int, int) <libHoudiniUT.so>
+UT_FaceGradedOctreeLabels::initFromMask(UT_VoxelArray<float> const&, int) <libHoudiniUT.so>
+GAS_ProjectNonDivergentAdaptive::buildOctreeCellLabels(UT_FaceGradedOctreeLabels&, SIM_RawIndexField const&, SIM_RawField const*, SIM_RawField const**, int, int, int) const <libHoudiniSIM.so>
+GAS_ProjectNonDivergentAdaptive::solveGasSubclass(SIM_Engine&, SIM_Object*, SIM_Time, SIM_Time) <libHoudiniSIM.so>
+GAS_SubSolver::solveGas(SIM_Engine&, SIM_Object*, SIM_Time, SIM_Time) <libHoudiniSIM.so>
+GAS_SubSolver::solveObjectsSubclass(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_Solver::solveObjects(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_SolverEnable::solveObjectsSubclass(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_Solver::solveObjects(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+GAS_SubStep::solveObjectsSubclass(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_Solver::solveObjects(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_SolverMulti::solveObjectsSubclass(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_Solver::solveObjects(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_Engine::doSimulationStepForMetaObject(SIM_MetaObject&, SIM_Time const&, bool) <libHoudiniSIM.so>
+SIM_Engine::doSimulationStep(bool) <libHoudiniSIM.so>
+SIM_Engine::setSimulationTime(SIM_Time const&, bool, bool, bool) <libHoudiniSIM.so>
+DOP_Parent::setDOPTimeSubclass(SIM_Time const&) <libHoudiniOP1.so>
+SOP_Dopnet::setDOPTimeSubclass(SIM_Time const&) <libHoudiniOPZ.so>
+DOP_Parent::setDOPTime(SIM_Time const&) <libHoudiniOP1.so>
+SOP_DopImport::getDOPParent(SIM_Time&) <libHoudiniOPZ.so>
+SOP_DopImport::initializeObjectInfo(OP_Context&, DOP_Parent*&, sopDopObjectArray&, UT_StringArray&, bool&) <libHoudiniOPZ.so>
+SOP_DopImport::cookMySop(OP_Context&) <libHoudiniOPZ.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+OP_AutoLockInputs::lockInput(long, OP_Context&) <libHoudiniPRM.so>
+sop_NodeInputs::cookInput(long) <libHoudiniOP2.so>
+SOP_Node::cookMyselfAsVerb(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Switch::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int)::{lambda()#1}::operator()() const <libHoudiniOP2.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int) <libHoudiniOP2.so>
+SOP_BlockEndFor::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Switch::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+OP_AutoLockInputs::lockInput(long, OP_Context&) <libHoudiniPRM.so>
+sop_NodeInputs::cookInput(long) <libHoudiniOP2.so>
+SOP_Node::cookMyselfAsVerb(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int)::{lambda()#1}::operator()() const <libHoudiniOP2.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int) <libHoudiniOP2.so>
+SOP_BlockEndFor::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Output::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int)::{lambda()#1}::operator()() const <libHoudiniOP2.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int) <libHoudiniOP2.so>
+SOP_SubNet::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Switch::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+OP_AutoLockInputs::lockInput(long, OP_Context&) <libHoudiniPRM.so>
+sop_NodeInputs::cookInput(long) <libHoudiniOP2.so>
+SOP_Node::cookMyselfAsVerb(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Switch::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int)::{lambda()#1}::operator()() const <libHoudiniOP2.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int) <libHoudiniOP2.so>
+SOP_SubNet::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Switch::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInputs(OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInputs(OP_Context&) <libHoudiniOP2.so>
+-- TRACEBACK END --
+dnhscript: errors [
+40300: Fatal error: Segmentation fault (sent by pid 72)
+]
+dnhscript: exit=35584 hasfailed=1
+
+DNeg: hscript has crashed: [139]
+
+ALF_EXIT_STATUS %002
+WARN (vanc548b4) exit status - exit=139, signal=0 - returning 139
+
+[2023/05/31 08:21:58 exit with non-zero status code rc=139,  ["/tools/SITE/data/tractor/scripts/cgwrapper", "bob-world", "-d", "/builds/targets/gen-2023-04-24T08:51:53.717044", "/builds/world/0185d17b59", "--", "bob-unworld", "dnhscript", "-bob-world", "/builds/world/0185d17b59", "-command", "set -g ELEM=fx_sw2_109_0950_ocean CMDSEP set -g VER=001 CMDSEP set -g TAKE=01 CMDSEP set -g TFSTART=1033 CMDSEP set -g TFEND=1103 CMDSEP set GEOMOUTWRITEZEN=0 CMDSEP set GEOMOUTWRITEABC=0 CMDSEP dneg_geometry_render.cmd 1033 1103 1 /out/WaveTankFlipSim", "-shotpath", "/jobs/NYAD/sw2_109_0950", "-shotpathl", "/hosts/vanws1882/user_data/NYAD/sw2_109_0950", "-version", "18.0.774", "-alfred", "-v", "-q", "-i", "/jobs/NYAD/sw2_109_0950/source/bch/BCH_sw2_109_0950_fx_slice_0_WaveTankFlipSim_0_lod500_v001/script/BCH_sw2_109_0950_fx_slice_0_WaveTankFlipSim_0_lod500_v001.hip"]]
+
+====[2023/05/31 08:21:58 process complete, exit code: 139]====
+
+
+====[2023/05/31 08:22:01 /J13801440/T3/C2.2/fxh@vanws1882 on vanc548b4 ]====
+
+WARN (vanc548b4) limiting memory to 64G and total size to 64G
+DNeg: tcsh -f -c "setenv SHOW NYAD; setenv SHOT sw2_109_0950;  setenv DN_SHOT_PATH /jobs/NYAD/sw2_109_0950; setenv DN_SHOT_PATHL /hosts/vanws1882/user_data/NYAD/sw2_109_0950;bob-world /builds/world/0185d17b59 -- dnhoudini  hserver -S houdini-license;bob-world /builds/world/0185d17b59 -- dnhoudini  hscript -R -w -j 24 -c 'set -g ELEM=fx_sw2_109_0950_ocean \n set -g VER=001 \n set -g TAKE=01 \n set -g TFSTART=1033 \n set -g TFEND=1103 \n set GEOMOUTWRITEZEN=0 \n set GEOMOUTWRITEABC=0 \n dneg_geometry_render.cmd 1033 1103 1 /out/WaveTankFlipSim' -v -q -i /jobs/NYAD/sw2_109_0950/source/bch/BCH_sw2_109_0950_fx_slice_0_WaveTankFlipSim_0_lod500_v001/script/BCH_sw2_109_0950_fx_slice_0_WaveTankFlipSim_0_lod500_v001.hip"
+License server is already set to houdini-license.
+[thread 41489] [default] [E] Type 'N4loom6BufferIhSaIhEEE' already has type name 'BufferUnsignedChar'
+[thread 41489] [default] [E] Type 'N4loom6BufferIcSaIcEEE' already has type name 'BufferChar'
+[thread 41489] [default] [E] Type 'N4loom6BufferIsSaIsEEE' already has type name 'BufferShort'
+[thread 41489] [default] [E] Type 'N4loom6BufferImSaImEEE' already has type name 'BufferUnsignedInt'
+[thread 41489] [default] [E] Type 'N4loom6BufferIiSaIiEEE' already has type name 'BufferInt'
+[thread 41489] [default] [E] Type 'N4loom6BufferIaSaIaEEE' already has type name 'BufferInt8'
+[thread 41489] [default] [E] Type 'N4loom6BufferIfSaIfEEE' already has type name 'BufferFloat'
+[thread 41489] [default] [E] Type 'N4loom6BufferIdSaIdEEE' already has type name 'BufferDouble'
+[thread 41489] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi2ELi1ELi0ELi2ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec2'
+[thread 41489] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi2ELi1ELi0ELi2ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec2d'
+[thread 41489] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi3ELi1ELi0ELi3ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec3'
+[thread 41489] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi3ELi1ELi0ELi3ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec3d'
+[thread 41489] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi4ELi1ELi0ELi4ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec4'
+[thread 41489] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi4ELi1ELi0ELi4ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec4d'
+[thread 41489] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi2ELi2ELi0ELi2ELi2EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat22'
+[thread 41489] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi2ELi2ELi0ELi2ELi2EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat22d'
+[thread 41489] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi3ELi3ELi0ELi3ELi3EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat33'
+[thread 41489] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi3ELi3ELi0ELi3ELi3EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat33d'
+[thread 41489] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi4ELi4ELi0ELi4ELi4EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat44'
+[thread 41489] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi4ELi4ELi0ELi4ELi4EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat44d'
+[thread 41489] [default] [E] Type 'N4loom6BufferIN5Eigen9TransformIfLi2ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferMat33'
+[thread 41489] [default] [E] Type 'N4loom6BufferIN5Eigen9TransformIdLi2ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferMat33d'
+[thread 41489] [default] [E] Type 'N4loom6BufferIN5Eigen9TransformIfLi3ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferMat44'
+[thread 41489] [default] [E] Type 'N4loom6BufferIN5Eigen9TransformIdLi3ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferMat44d'
+[thread 41489] [default] [E] Type 'N4loom9AttributeIhSaIhEEE' already has type name 'AttributeUnsignedChar'
+[thread 41489] [default] [E] Type 'N4loom9AttributeIcSaIcEEE' already has type name 'AttributeChar'
+[thread 41489] [default] [E] Type 'N4loom9AttributeIsSaIsEEE' already has type name 'AttributeShort'
+[thread 41489] [default] [E] Type 'N4loom9AttributeImSaImEEE' already has type name 'AttributeUnsignedInt'
+[thread 41489] [default] [E] Type 'N4loom9AttributeIiSaIiEEE' already has type name 'AttributeInt'
+[thread 41489] [default] [E] Type 'N4loom9AttributeIaSaIaEEE' already has type name 'AttributeInt8'
+[thread 41489] [default] [E] Type 'N4loom9AttributeIfSaIfEEE' already has type name 'AttributeFloat'
+[thread 41489] [default] [E] Type 'N4loom9AttributeIdSaIdEEE' already has type name 'AttributeDouble'
+[thread 41489] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi2ELi1ELi0ELi2ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec2'
+[thread 41489] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi2ELi1ELi0ELi2ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec2d'
+[thread 41489] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi3ELi1ELi0ELi3ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec3'
+[thread 41489] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi3ELi1ELi0ELi3ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec3d'
+[thread 41489] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi4ELi1ELi0ELi4ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec4'
+[thread 41489] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi4ELi1ELi0ELi4ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec4d'
+[thread 41489] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi2ELi2ELi0ELi2ELi2EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat22'
+[thread 41489] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi2ELi2ELi0ELi2ELi2EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat22d'
+[thread 41489] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi3ELi3ELi0ELi3ELi3EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat33'
+[thread 41489] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi3ELi3ELi0ELi3ELi3EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat33d'
+[thread 41489] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi4ELi4ELi0ELi4ELi4EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat44'
+[thread 41489] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi4ELi4ELi0ELi4ELi4EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat44d'
+[thread 41489] [default] [E] Type 'N4loom9AttributeIN5Eigen9TransformIfLi2ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeMat33'
+[thread 41489] [default] [E] Type 'N4loom9AttributeIN5Eigen9TransformIdLi2ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeMat33d'
+[thread 41489] [default] [E] Type 'N4loom9AttributeIN5Eigen9TransformIfLi3ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeMat44'
+[thread 41489] [default] [E] Type 'N4loom9AttributeIN5Eigen9TransformIdLi3ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeMat44d'
+[thread 41489] [default] [E] Type 'N4loom12NullGeometryE' already has type name 'NullGeometry'
+[thread 41489] [default] [E] Type 'N4loom9PointDataE' already has type name 'PointData'
+[thread 41489] [default] [E] Type 'N4loom11PolygonMeshE' already has type name 'PolygonMesh'
+[thread 41489] [default] [E] Type 'N4loom5CurveE' already has type name 'Curve'
+[thread 41489] [default] [E] Type 'N4loom13BezierSurfaceE' already has type name 'BezierSurface'
+[thread 41489] [default] [E] Type 'N4loom14MultiWeightSetE' already has type name 'Weightmap'
+[thread 41489] [default] [E] Type 'N4loom9WeightSetE' already has type name 'WeightSet'
+[thread 41489] [default] [E] Type 'N4loom5ImageE' already has type name 'Image'
+[thread 41489] [default] [E] Type 'N4loom7Shape2dE' already has type name 'Shape2d'
+[thread 41489] [default] [E] Type 'N4loom7Shape2d10ParametersE' already has type name 'Shape2d::Parameters'
+dnhou log file : /user_data/.tmp/Houdini_Startup_dnhou_94f7dcc9-d95d-4b03-adf7-b742f7979312.log
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/asset_packages/references/__init__.py:11: RuntimeWarning: to-Python converter for std::vector<std::string, std::allocator<std::string> > already registered; second conversion method ignored.
+  from . import AssetPackages_References_py as _importedModule
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/asset_packages/references/__init__.py:11: RuntimeWarning: to-Python converter for std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > > already registered; second conversion method ignored.
+  from . import AssetPackages_References_py as _importedModule
+/obj/rendersettings1/nyad_ropnet/environment_underwater_volume_L010_VOLUME Warning(1749): incorrect number of #s in 'round_value' for multiparm depth of 1
+<internal> Warning(1583): incorrect number of #s in 'round_value' for multiparm depth of 1
+/obj/rendersettings1/nyad_ropnet/environment_ocean_L010_BEAUTY Warning(1811): incorrect number of #s in 'round_value' for multiparm depth of 1
+<internal> Warning(1645): incorrect number of #s in 'round_value' for multiparm depth of 1
+Start logging astrohoudini to [astrohoudini]
+Skipping OTL installation
+In /tools/SITE/bundles/houdini-qlib/stable/0.2.16-r5-H18_0/houdini/18.0/scripts/456_dnpkg.cmd
+Sourcing /tools/SITE/bundles/houdini-qlib/stable/0.2.16-r5-H18_0/houdini/18.0/scripts/python/456_dnpkg.py
+Skipping OTL installation
+In /tools/SITE/bundles/houdini-qlib/stable/0.2.16-r5-H18_0/houdini/18.0/scripts/456_dnpkg.cmd
+Sourcing /tools/SITE/bundles/houdini-qlib/stable/0.2.16-r5-H18_0/houdini/18.0/scripts/python/456_dnpkg.py
+Couldn't find show based dependency at: /tools/NYAD/houdini/renderpass/config.json
+Found dependency at /tools/SITE/bundles/houdini-tdtools/stable/4.0.10-H18_0/houdini/renderpass/config.json
+Couldn't find show based dependency at: /tools/NYAD/houdini/renderpass/config.json
+Found dependency at /tools/SITE/bundles/houdini-tdtools/stable/4.0.10-H18_0/houdini/renderpass/config.json
+[dnhou.library_otls_startup:INFO ] Current Task (fx) does not match (groom), no Groom LIBRARY OTLs will be loaded.
+[dnhou.library_otls_startup:INFO ] Hidden 7 operator types (to be replaced by LIBRARY nodes): dneg::guideProcessDn::1.1, draw_rachis, feather_preview, feather_rotation_noise, generate_feather_groom, make_feather_sim_geo, make_feather_sim_geo::2
+[dnhou.library_otls_startup:INFO ] Current Task (fx) does not match (groom), no Groom LIBRARY OTLs will be loaded.
+[dnhou.library_otls_startup:INFO ] Hidden 7 operator types (to be replaced by LIBRARY nodes): dneg::guideProcessDn::1.1, draw_rachis, feather_preview, feather_rotation_noise, generate_feather_groom, make_feather_sim_geo, make_feather_sim_geo::2
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/pxr/Tf/__init__.py:85: RuntimeWarning: to-Python converter for std::vector<unsigned int, std::allocator<unsigned int> > already registered; second conversion method ignored.
+  from . import _tf
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/pxr/Tf/__init__.py:85: RuntimeWarning: to-Python converter for std::vector<double, std::allocator<double> > already registered; second conversion method ignored.
+  from . import _tf
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/pxr/Tf/__init__.py:85: RuntimeWarning: to-Python converter for std::vector<std::string, std::allocator<std::string> > already registered; second conversion method ignored.
+  from . import _tf
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/pxr/Tf/__init__.py:85: RuntimeWarning: to-Python converter for std::set<int, std::less<int>, std::allocator<int> > already registered; second conversion method ignored.
+  from . import _tf
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/pxr/Sdf/__init__.py:24: RuntimeWarning: to-Python converter for std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > > already registered; second conversion method ignored.
+  import _sdf
+
+[dnhou.cacheout:INFO ] Unlocking CacheOut '/out/WaveTankFlipSim'.
+May 31 08:26:07 : vanc548b4 : houdini : _hou_geo : ================== rendering frame 1033 ==================
+
+41489: Fatal error: Segmentation fault (sent by pid 72)
+-- TRACEBACK BEGIN --
+Traceback from hbatch 18.0.774 (Compiled on linux-x86_64-gcc6.3):
+stackTrace() <libHoudiniUT.so>
+signalCallback(UTsignalHandlerArg) <libHoudiniUT.so>
+UT_Signal::UT_ComboSignalHandler::operator()(int, siginfo_t*, void*) const <libHoudiniUT.so>
+UT_Signal::processSignal(int, siginfo_t*, void*) <libHoudiniUT.so>
+_L_unlock_13 <libpthread.so.0>
+UT_VoxelArray<int>::deleteVoxels() <libHoudiniUT.so>
+UT_VoxelArray<int>::size(int, int, int) <libHoudiniUT.so>
+UT_FaceGradedOctreeLabels::initFromMask(UT_VoxelArray<float> const&, int) <libHoudiniUT.so>
+GAS_ProjectNonDivergentAdaptive::buildOctreeCellLabels(UT_FaceGradedOctreeLabels&, SIM_RawIndexField const&, SIM_RawField const*, SIM_RawField const**, int, int, int) const <libHoudiniSIM.so>
+GAS_ProjectNonDivergentAdaptive::solveGasSubclass(SIM_Engine&, SIM_Object*, SIM_Time, SIM_Time) <libHoudiniSIM.so>
+GAS_SubSolver::solveGas(SIM_Engine&, SIM_Object*, SIM_Time, SIM_Time) <libHoudiniSIM.so>
+GAS_SubSolver::solveObjectsSubclass(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_Solver::solveObjects(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_SolverEnable::solveObjectsSubclass(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_Solver::solveObjects(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+GAS_SubStep::solveObjectsSubclass(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_Solver::solveObjects(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_SolverMulti::solveObjectsSubclass(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_Solver::solveObjects(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_Engine::doSimulationStepForMetaObject(SIM_MetaObject&, SIM_Time const&, bool) <libHoudiniSIM.so>
+SIM_Engine::doSimulationStep(bool) <libHoudiniSIM.so>
+SIM_Engine::setSimulationTime(SIM_Time const&, bool, bool, bool) <libHoudiniSIM.so>
+DOP_Parent::setDOPTimeSubclass(SIM_Time const&) <libHoudiniOP1.so>
+SOP_Dopnet::setDOPTimeSubclass(SIM_Time const&) <libHoudiniOPZ.so>
+DOP_Parent::setDOPTime(SIM_Time const&) <libHoudiniOP1.so>
+SOP_DopImport::getDOPParent(SIM_Time&) <libHoudiniOPZ.so>
+SOP_DopImport::initializeObjectInfo(OP_Context&, DOP_Parent*&, sopDopObjectArray&, UT_StringArray&, bool&) <libHoudiniOPZ.so>
+SOP_DopImport::cookMySop(OP_Context&) <libHoudiniOPZ.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+OP_AutoLockInputs::lockInput(long, OP_Context&) <libHoudiniPRM.so>
+sop_NodeInputs::cookInput(long) <libHoudiniOP2.so>
+SOP_Node::cookMyselfAsVerb(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Switch::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int)::{lambda()#1}::operator()() const <libHoudiniOP2.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int) <libHoudiniOP2.so>
+SOP_BlockEndFor::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Switch::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+OP_AutoLockInputs::lockInput(long, OP_Context&) <libHoudiniPRM.so>
+sop_NodeInputs::cookInput(long) <libHoudiniOP2.so>
+SOP_Node::cookMyselfAsVerb(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int)::{lambda()#1}::operator()() const <libHoudiniOP2.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int) <libHoudiniOP2.so>
+SOP_BlockEndFor::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Output::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int)::{lambda()#1}::operator()() const <libHoudiniOP2.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int) <libHoudiniOP2.so>
+SOP_SubNet::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Switch::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+OP_AutoLockInputs::lockInput(long, OP_Context&) <libHoudiniPRM.so>
+sop_NodeInputs::cookInput(long) <libHoudiniOP2.so>
+SOP_Node::cookMyselfAsVerb(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Switch::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int)::{lambda()#1}::operator()() const <libHoudiniOP2.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int) <libHoudiniOP2.so>
+SOP_SubNet::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Switch::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInputs(OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInputs(OP_Context&) <libHoudiniOP2.so>
+-- TRACEBACK END --
+dnhscript: errors [
+41489: Fatal error: Segmentation fault (sent by pid 72)
+]
+dnhscript: exit=35584 hasfailed=1
+
+DNeg: hscript has crashed: [139]
+
+ALF_EXIT_STATUS %002
+WARN (vanc548b4) exit status - exit=139, signal=0 - returning 139
+
+[2023/05/31 08:26:39 exit with non-zero status code rc=139,  ["/tools/SITE/data/tractor/scripts/cgwrapper", "bob-world", "-d", "/builds/targets/gen-2023-04-24T08:51:53.717044", "/builds/world/0185d17b59", "--", "bob-unworld", "dnhscript", "-bob-world", "/builds/world/0185d17b59", "-command", "set -g ELEM=fx_sw2_109_0950_ocean CMDSEP set -g VER=001 CMDSEP set -g TAKE=01 CMDSEP set -g TFSTART=1033 CMDSEP set -g TFEND=1103 CMDSEP set GEOMOUTWRITEZEN=0 CMDSEP set GEOMOUTWRITEABC=0 CMDSEP dneg_geometry_render.cmd 1033 1103 1 /out/WaveTankFlipSim", "-shotpath", "/jobs/NYAD/sw2_109_0950", "-shotpathl", "/hosts/vanws1882/user_data/NYAD/sw2_109_0950", "-version", "18.0.774", "-alfred", "-v", "-q", "-i", "/jobs/NYAD/sw2_109_0950/source/bch/BCH_sw2_109_0950_fx_slice_0_WaveTankFlipSim_0_lod500_v001/script/BCH_sw2_109_0950_fx_slice_0_WaveTankFlipSim_0_lod500_v001.hip"]]
+
+====[2023/05/31 08:26:39 process complete, exit code: 139]====
+
+
+====[2023/05/31 08:30:04 /J13801440/T3/C2.3/fxh@vanws1882 on vanc582b2 ]====
+
+WARN (vanc582b2) limiting memory to 128G and total size to 128G
+DNeg: tcsh -f -c "setenv SHOW NYAD; setenv SHOT sw2_109_0950;  setenv DN_SHOT_PATH /jobs/NYAD/sw2_109_0950; setenv DN_SHOT_PATHL /hosts/vanws1882/user_data/NYAD/sw2_109_0950;bob-world /builds/world/0185d17b59 -- dnhoudini  hserver -S houdini-license;bob-world /builds/world/0185d17b59 -- dnhoudini  hscript -R -w -j 64 -c 'set -g ELEM=fx_sw2_109_0950_ocean \n set -g VER=001 \n set -g TAKE=01 \n set -g TFSTART=1033 \n set -g TFEND=1103 \n set GEOMOUTWRITEZEN=0 \n set GEOMOUTWRITEABC=0 \n dneg_geometry_render.cmd 1033 1103 1 /out/WaveTankFlipSim' -v -q -i /jobs/NYAD/sw2_109_0950/source/bch/BCH_sw2_109_0950_fx_slice_0_WaveTankFlipSim_0_lod500_v001/script/BCH_sw2_109_0950_fx_slice_0_WaveTankFlipSim_0_lod500_v001.hip"
+License server is already set to houdini-license.
+[thread 7879] [default] [E] Type 'N4loom6BufferIhSaIhEEE' already has type name 'BufferUnsignedChar'
+[thread 7879] [default] [E] Type 'N4loom6BufferIcSaIcEEE' already has type name 'BufferChar'
+[thread 7879] [default] [E] Type 'N4loom6BufferIsSaIsEEE' already has type name 'BufferShort'
+[thread 7879] [default] [E] Type 'N4loom6BufferImSaImEEE' already has type name 'BufferUnsignedInt'
+[thread 7879] [default] [E] Type 'N4loom6BufferIiSaIiEEE' already has type name 'BufferInt'
+[thread 7879] [default] [E] Type 'N4loom6BufferIaSaIaEEE' already has type name 'BufferInt8'
+[thread 7879] [default] [E] Type 'N4loom6BufferIfSaIfEEE' already has type name 'BufferFloat'
+[thread 7879] [default] [E] Type 'N4loom6BufferIdSaIdEEE' already has type name 'BufferDouble'
+[thread 7879] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi2ELi1ELi0ELi2ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec2'
+[thread 7879] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi2ELi1ELi0ELi2ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec2d'
+[thread 7879] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi3ELi1ELi0ELi3ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec3'
+[thread 7879] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi3ELi1ELi0ELi3ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec3d'
+[thread 7879] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi4ELi1ELi0ELi4ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec4'
+[thread 7879] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi4ELi1ELi0ELi4ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec4d'
+[thread 7879] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi2ELi2ELi0ELi2ELi2EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat22'
+[thread 7879] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi2ELi2ELi0ELi2ELi2EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat22d'
+[thread 7879] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi3ELi3ELi0ELi3ELi3EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat33'
+[thread 7879] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi3ELi3ELi0ELi3ELi3EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat33d'
+[thread 7879] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi4ELi4ELi0ELi4ELi4EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat44'
+[thread 7879] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi4ELi4ELi0ELi4ELi4EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat44d'
+[thread 7879] [default] [E] Type 'N4loom6BufferIN5Eigen9TransformIfLi2ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferMat33'
+[thread 7879] [default] [E] Type 'N4loom6BufferIN5Eigen9TransformIdLi2ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferMat33d'
+[thread 7879] [default] [E] Type 'N4loom6BufferIN5Eigen9TransformIfLi3ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferMat44'
+[thread 7879] [default] [E] Type 'N4loom6BufferIN5Eigen9TransformIdLi3ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferMat44d'
+[thread 7879] [default] [E] Type 'N4loom9AttributeIhSaIhEEE' already has type name 'AttributeUnsignedChar'
+[thread 7879] [default] [E] Type 'N4loom9AttributeIcSaIcEEE' already has type name 'AttributeChar'
+[thread 7879] [default] [E] Type 'N4loom9AttributeIsSaIsEEE' already has type name 'AttributeShort'
+[thread 7879] [default] [E] Type 'N4loom9AttributeImSaImEEE' already has type name 'AttributeUnsignedInt'
+[thread 7879] [default] [E] Type 'N4loom9AttributeIiSaIiEEE' already has type name 'AttributeInt'
+[thread 7879] [default] [E] Type 'N4loom9AttributeIaSaIaEEE' already has type name 'AttributeInt8'
+[thread 7879] [default] [E] Type 'N4loom9AttributeIfSaIfEEE' already has type name 'AttributeFloat'
+[thread 7879] [default] [E] Type 'N4loom9AttributeIdSaIdEEE' already has type name 'AttributeDouble'
+[thread 7879] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi2ELi1ELi0ELi2ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec2'
+[thread 7879] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi2ELi1ELi0ELi2ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec2d'
+[thread 7879] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi3ELi1ELi0ELi3ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec3'
+[thread 7879] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi3ELi1ELi0ELi3ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec3d'
+[thread 7879] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi4ELi1ELi0ELi4ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec4'
+[thread 7879] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi4ELi1ELi0ELi4ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec4d'
+[thread 7879] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi2ELi2ELi0ELi2ELi2EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat22'
+[thread 7879] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi2ELi2ELi0ELi2ELi2EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat22d'
+[thread 7879] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi3ELi3ELi0ELi3ELi3EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat33'
+[thread 7879] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi3ELi3ELi0ELi3ELi3EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat33d'
+[thread 7879] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi4ELi4ELi0ELi4ELi4EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat44'
+[thread 7879] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi4ELi4ELi0ELi4ELi4EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat44d'
+[thread 7879] [default] [E] Type 'N4loom9AttributeIN5Eigen9TransformIfLi2ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeMat33'
+[thread 7879] [default] [E] Type 'N4loom9AttributeIN5Eigen9TransformIdLi2ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeMat33d'
+[thread 7879] [default] [E] Type 'N4loom9AttributeIN5Eigen9TransformIfLi3ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeMat44'
+[thread 7879] [default] [E] Type 'N4loom9AttributeIN5Eigen9TransformIdLi3ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeMat44d'
+[thread 7879] [default] [E] Type 'N4loom12NullGeometryE' already has type name 'NullGeometry'
+[thread 7879] [default] [E] Type 'N4loom9PointDataE' already has type name 'PointData'
+[thread 7879] [default] [E] Type 'N4loom11PolygonMeshE' already has type name 'PolygonMesh'
+[thread 7879] [default] [E] Type 'N4loom5CurveE' already has type name 'Curve'
+[thread 7879] [default] [E] Type 'N4loom13BezierSurfaceE' already has type name 'BezierSurface'
+[thread 7879] [default] [E] Type 'N4loom14MultiWeightSetE' already has type name 'Weightmap'
+[thread 7879] [default] [E] Type 'N4loom9WeightSetE' already has type name 'WeightSet'
+[thread 7879] [default] [E] Type 'N4loom5ImageE' already has type name 'Image'
+[thread 7879] [default] [E] Type 'N4loom7Shape2dE' already has type name 'Shape2d'
+[thread 7879] [default] [E] Type 'N4loom7Shape2d10ParametersE' already has type name 'Shape2d::Parameters'
+dnhou log file : /user_data/.tmp/Houdini_Startup_dnhou_4ba809b3-81cd-454c-a057-c9e00030cd7b.log
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/asset_packages/references/__init__.py:11: RuntimeWarning: to-Python converter for std::vector<std::string, std::allocator<std::string> > already registered; second conversion method ignored.
+  from . import AssetPackages_References_py as _importedModule
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/asset_packages/references/__init__.py:11: RuntimeWarning: to-Python converter for std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > > already registered; second conversion method ignored.
+  from . import AssetPackages_References_py as _importedModule
+/obj/rendersettings1/nyad_ropnet/environment_underwater_volume_L010_VOLUME Warning(1749): incorrect number of #s in 'round_value' for multiparm depth of 1
+<internal> Warning(1583): incorrect number of #s in 'round_value' for multiparm depth of 1
+/obj/rendersettings1/nyad_ropnet/environment_ocean_L010_BEAUTY Warning(1811): incorrect number of #s in 'round_value' for multiparm depth of 1
+<internal> Warning(1645): incorrect number of #s in 'round_value' for multiparm depth of 1
+Start logging astrohoudini to [astrohoudini]
+Skipping OTL installation
+In /tools/SITE/bundles/houdini-qlib/stable/0.2.16-r5-H18_0/houdini/18.0/scripts/456_dnpkg.cmd
+Sourcing /tools/SITE/bundles/houdini-qlib/stable/0.2.16-r5-H18_0/houdini/18.0/scripts/python/456_dnpkg.py
+Skipping OTL installation
+In /tools/SITE/bundles/houdini-qlib/stable/0.2.16-r5-H18_0/houdini/18.0/scripts/456_dnpkg.cmd
+Sourcing /tools/SITE/bundles/houdini-qlib/stable/0.2.16-r5-H18_0/houdini/18.0/scripts/python/456_dnpkg.py
+Couldn't find show based dependency at: /tools/NYAD/houdini/renderpass/config.json
+Found dependency at /tools/SITE/bundles/houdini-tdtools/stable/4.0.10-H18_0/houdini/renderpass/config.json
+Couldn't find show based dependency at: /tools/NYAD/houdini/renderpass/config.json
+Found dependency at /tools/SITE/bundles/houdini-tdtools/stable/4.0.10-H18_0/houdini/renderpass/config.json
+[dnhou.library_otls_startup:INFO ] Current Task (fx) does not match (groom), no Groom LIBRARY OTLs will be loaded.
+[dnhou.library_otls_startup:INFO ] Hidden 7 operator types (to be replaced by LIBRARY nodes): dneg::guideProcessDn::1.1, draw_rachis, feather_preview, feather_rotation_noise, generate_feather_groom, make_feather_sim_geo, make_feather_sim_geo::2
+[dnhou.library_otls_startup:INFO ] Current Task (fx) does not match (groom), no Groom LIBRARY OTLs will be loaded.
+[dnhou.library_otls_startup:INFO ] Hidden 7 operator types (to be replaced by LIBRARY nodes): dneg::guideProcessDn::1.1, draw_rachis, feather_preview, feather_rotation_noise, generate_feather_groom, make_feather_sim_geo, make_feather_sim_geo::2
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/pxr/Tf/__init__.py:85: RuntimeWarning: to-Python converter for std::vector<unsigned int, std::allocator<unsigned int> > already registered; second conversion method ignored.
+  from . import _tf
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/pxr/Tf/__init__.py:85: RuntimeWarning: to-Python converter for std::vector<double, std::allocator<double> > already registered; second conversion method ignored.
+  from . import _tf
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/pxr/Tf/__init__.py:85: RuntimeWarning: to-Python converter for std::vector<std::string, std::allocator<std::string> > already registered; second conversion method ignored.
+  from . import _tf
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/pxr/Tf/__init__.py:85: RuntimeWarning: to-Python converter for std::set<int, std::less<int>, std::allocator<int> > already registered; second conversion method ignored.
+  from . import _tf
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/pxr/Sdf/__init__.py:24: RuntimeWarning: to-Python converter for std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > > already registered; second conversion method ignored.
+  import _sdf
+
+[dnhou.cacheout:INFO ] Unlocking CacheOut '/out/WaveTankFlipSim'.
+May 31 08:35:49 : vanc582b2 : houdini : _hou_geo : ================== rendering frame 1033 ==================
+
+7879: Fatal error: Segmentation fault (sent by pid 72)
+-- TRACEBACK BEGIN --
+Traceback from hbatch 18.0.774 (Compiled on linux-x86_64-gcc6.3):
+stackTrace() <libHoudiniUT.so>
+signalCallback(UTsignalHandlerArg) <libHoudiniUT.so>
+UT_Signal::UT_ComboSignalHandler::operator()(int, siginfo_t*, void*) const <libHoudiniUT.so>
+UT_Signal::processSignal(int, siginfo_t*, void*) <libHoudiniUT.so>
+_L_unlock_13 <libpthread.so.0>
+UT_VoxelArray<int>::deleteVoxels() <libHoudiniUT.so>
+UT_VoxelArray<int>::size(int, int, int) <libHoudiniUT.so>
+UT_FaceGradedOctreeLabels::initFromMask(UT_VoxelArray<float> const&, int) <libHoudiniUT.so>
+GAS_ProjectNonDivergentAdaptive::buildOctreeCellLabels(UT_FaceGradedOctreeLabels&, SIM_RawIndexField const&, SIM_RawField const*, SIM_RawField const**, int, int, int) const <libHoudiniSIM.so>
+GAS_ProjectNonDivergentAdaptive::solveGasSubclass(SIM_Engine&, SIM_Object*, SIM_Time, SIM_Time) <libHoudiniSIM.so>
+GAS_SubSolver::solveGas(SIM_Engine&, SIM_Object*, SIM_Time, SIM_Time) <libHoudiniSIM.so>
+GAS_SubSolver::solveObjectsSubclass(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_Solver::solveObjects(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_SolverEnable::solveObjectsSubclass(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_Solver::solveObjects(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+GAS_SubStep::solveObjectsSubclass(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_Solver::solveObjects(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_SolverMulti::solveObjectsSubclass(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_Solver::solveObjects(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_Engine::doSimulationStepForMetaObject(SIM_MetaObject&, SIM_Time const&, bool) <libHoudiniSIM.so>
+SIM_Engine::doSimulationStep(bool) <libHoudiniSIM.so>
+SIM_Engine::setSimulationTime(SIM_Time const&, bool, bool, bool) <libHoudiniSIM.so>
+DOP_Parent::setDOPTimeSubclass(SIM_Time const&) <libHoudiniOP1.so>
+SOP_Dopnet::setDOPTimeSubclass(SIM_Time const&) <libHoudiniOPZ.so>
+DOP_Parent::setDOPTime(SIM_Time const&) <libHoudiniOP1.so>
+SOP_DopImport::getDOPParent(SIM_Time&) <libHoudiniOPZ.so>
+SOP_DopImport::initializeObjectInfo(OP_Context&, DOP_Parent*&, sopDopObjectArray&, UT_StringArray&, bool&) <libHoudiniOPZ.so>
+SOP_DopImport::cookMySop(OP_Context&) <libHoudiniOPZ.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+OP_AutoLockInputs::lockInput(long, OP_Context&) <libHoudiniPRM.so>
+sop_NodeInputs::cookInput(long) <libHoudiniOP2.so>
+SOP_Node::cookMyselfAsVerb(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Switch::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int)::{lambda()#1}::operator()() const <libHoudiniOP2.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int) <libHoudiniOP2.so>
+SOP_BlockEndFor::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Switch::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+OP_AutoLockInputs::lockInput(long, OP_Context&) <libHoudiniPRM.so>
+sop_NodeInputs::cookInput(long) <libHoudiniOP2.so>
+SOP_Node::cookMyselfAsVerb(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int)::{lambda()#1}::operator()() const <libHoudiniOP2.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int) <libHoudiniOP2.so>
+SOP_BlockEndFor::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Output::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int)::{lambda()#1}::operator()() const <libHoudiniOP2.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int) <libHoudiniOP2.so>
+SOP_SubNet::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Switch::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+OP_AutoLockInputs::lockInput(long, OP_Context&) <libHoudiniPRM.so>
+sop_NodeInputs::cookInput(long) <libHoudiniOP2.so>
+SOP_Node::cookMyselfAsVerb(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Switch::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int)::{lambda()#1}::operator()() const <libHoudiniOP2.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int) <libHoudiniOP2.so>
+SOP_SubNet::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Switch::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInputs(OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInputs(OP_Context&) <libHoudiniOP2.so>
+-- TRACEBACK END --
+dnhscript: errors [
+7879: Fatal error: Segmentation fault (sent by pid 72)
+]
+dnhscript: exit=35584 hasfailed=1
+
+DNeg: hscript has crashed: [139]
+
+ALF_EXIT_STATUS %002
+WARN (vanc582b2) exit status - exit=139, signal=0 - returning 139
+
+[2023/05/31 08:36:30 exit with non-zero status code rc=139,  ["/tools/SITE/data/tractor/scripts/cgwrapper", "bob-world", "-d", "/builds/targets/gen-2023-04-24T08:51:53.717044", "/builds/world/0185d17b59", "--", "bob-unworld", "dnhscript", "-bob-world", "/builds/world/0185d17b59", "-command", "set -g ELEM=fx_sw2_109_0950_ocean CMDSEP set -g VER=001 CMDSEP set -g TAKE=01 CMDSEP set -g TFSTART=1033 CMDSEP set -g TFEND=1103 CMDSEP set GEOMOUTWRITEZEN=0 CMDSEP set GEOMOUTWRITEABC=0 CMDSEP dneg_geometry_render.cmd 1033 1103 1 /out/WaveTankFlipSim", "-shotpath", "/jobs/NYAD/sw2_109_0950", "-shotpathl", "/hosts/vanws1882/user_data/NYAD/sw2_109_0950", "-version", "18.0.774", "-alfred", "-v", "-q", "-i", "/jobs/NYAD/sw2_109_0950/source/bch/BCH_sw2_109_0950_fx_slice_0_WaveTankFlipSim_0_lod500_v001/script/BCH_sw2_109_0950_fx_slice_0_WaveTankFlipSim_0_lod500_v001.hip"]]
+
+====[2023/05/31 08:36:30 process complete, exit code: 139]====
+
+
+====[2023/05/31 08:36:32 /J13801440/T3/C2.4/fxh@vanws1882 on vanc582b2 ]====
+
+WARN (vanc582b2) limiting memory to 128G and total size to 128G
+DNeg: tcsh -f -c "setenv SHOW NYAD; setenv SHOT sw2_109_0950;  setenv DN_SHOT_PATH /jobs/NYAD/sw2_109_0950; setenv DN_SHOT_PATHL /hosts/vanws1882/user_data/NYAD/sw2_109_0950;bob-world /builds/world/0185d17b59 -- dnhoudini  hserver -S houdini-license;bob-world /builds/world/0185d17b59 -- dnhoudini  hscript -R -w -j 64 -c 'set -g ELEM=fx_sw2_109_0950_ocean \n set -g VER=001 \n set -g TAKE=01 \n set -g TFSTART=1033 \n set -g TFEND=1103 \n set GEOMOUTWRITEZEN=0 \n set GEOMOUTWRITEABC=0 \n dneg_geometry_render.cmd 1033 1103 1 /out/WaveTankFlipSim' -v -q -i /jobs/NYAD/sw2_109_0950/source/bch/BCH_sw2_109_0950_fx_slice_0_WaveTankFlipSim_0_lod500_v001/script/BCH_sw2_109_0950_fx_slice_0_WaveTankFlipSim_0_lod500_v001.hip"
+License server is already set to houdini-license.
+[thread 9228] [default] [E] Type 'N4loom6BufferIhSaIhEEE' already has type name 'BufferUnsignedChar'
+[thread 9228] [default] [E] Type 'N4loom6BufferIcSaIcEEE' already has type name 'BufferChar'
+[thread 9228] [default] [E] Type 'N4loom6BufferIsSaIsEEE' already has type name 'BufferShort'
+[thread 9228] [default] [E] Type 'N4loom6BufferImSaImEEE' already has type name 'BufferUnsignedInt'
+[thread 9228] [default] [E] Type 'N4loom6BufferIiSaIiEEE' already has type name 'BufferInt'
+[thread 9228] [default] [E] Type 'N4loom6BufferIaSaIaEEE' already has type name 'BufferInt8'
+[thread 9228] [default] [E] Type 'N4loom6BufferIfSaIfEEE' already has type name 'BufferFloat'
+[thread 9228] [default] [E] Type 'N4loom6BufferIdSaIdEEE' already has type name 'BufferDouble'
+[thread 9228] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi2ELi1ELi0ELi2ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec2'
+[thread 9228] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi2ELi1ELi0ELi2ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec2d'
+[thread 9228] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi3ELi1ELi0ELi3ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec3'
+[thread 9228] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi3ELi1ELi0ELi3ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec3d'
+[thread 9228] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi4ELi1ELi0ELi4ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec4'
+[thread 9228] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi4ELi1ELi0ELi4ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferVec4d'
+[thread 9228] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi2ELi2ELi0ELi2ELi2EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat22'
+[thread 9228] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi2ELi2ELi0ELi2ELi2EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat22d'
+[thread 9228] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi3ELi3ELi0ELi3ELi3EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat33'
+[thread 9228] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi3ELi3ELi0ELi3ELi3EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat33d'
+[thread 9228] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIfLi4ELi4ELi0ELi4ELi4EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat44'
+[thread 9228] [default] [E] Type 'N4loom6BufferIN5Eigen6MatrixIdLi4ELi4ELi0ELi4ELi4EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferRawMat44d'
+[thread 9228] [default] [E] Type 'N4loom6BufferIN5Eigen9TransformIfLi2ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferMat33'
+[thread 9228] [default] [E] Type 'N4loom6BufferIN5Eigen9TransformIdLi2ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferMat33d'
+[thread 9228] [default] [E] Type 'N4loom6BufferIN5Eigen9TransformIfLi3ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferMat44'
+[thread 9228] [default] [E] Type 'N4loom6BufferIN5Eigen9TransformIdLi3ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'BufferMat44d'
+[thread 9228] [default] [E] Type 'N4loom9AttributeIhSaIhEEE' already has type name 'AttributeUnsignedChar'
+[thread 9228] [default] [E] Type 'N4loom9AttributeIcSaIcEEE' already has type name 'AttributeChar'
+[thread 9228] [default] [E] Type 'N4loom9AttributeIsSaIsEEE' already has type name 'AttributeShort'
+[thread 9228] [default] [E] Type 'N4loom9AttributeImSaImEEE' already has type name 'AttributeUnsignedInt'
+[thread 9228] [default] [E] Type 'N4loom9AttributeIiSaIiEEE' already has type name 'AttributeInt'
+[thread 9228] [default] [E] Type 'N4loom9AttributeIaSaIaEEE' already has type name 'AttributeInt8'
+[thread 9228] [default] [E] Type 'N4loom9AttributeIfSaIfEEE' already has type name 'AttributeFloat'
+[thread 9228] [default] [E] Type 'N4loom9AttributeIdSaIdEEE' already has type name 'AttributeDouble'
+[thread 9228] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi2ELi1ELi0ELi2ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec2'
+[thread 9228] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi2ELi1ELi0ELi2ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec2d'
+[thread 9228] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi3ELi1ELi0ELi3ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec3'
+[thread 9228] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi3ELi1ELi0ELi3ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec3d'
+[thread 9228] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi4ELi1ELi0ELi4ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec4'
+[thread 9228] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi4ELi1ELi0ELi4ELi1EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeVec4d'
+[thread 9228] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi2ELi2ELi0ELi2ELi2EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat22'
+[thread 9228] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi2ELi2ELi0ELi2ELi2EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat22d'
+[thread 9228] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi3ELi3ELi0ELi3ELi3EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat33'
+[thread 9228] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi3ELi3ELi0ELi3ELi3EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat33d'
+[thread 9228] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIfLi4ELi4ELi0ELi4ELi4EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat44'
+[thread 9228] [default] [E] Type 'N4loom9AttributeIN5Eigen6MatrixIdLi4ELi4ELi0ELi4ELi4EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeRawMat44d'
+[thread 9228] [default] [E] Type 'N4loom9AttributeIN5Eigen9TransformIfLi2ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeMat33'
+[thread 9228] [default] [E] Type 'N4loom9AttributeIN5Eigen9TransformIdLi2ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeMat33d'
+[thread 9228] [default] [E] Type 'N4loom9AttributeIN5Eigen9TransformIfLi3ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeMat44'
+[thread 9228] [default] [E] Type 'N4loom9AttributeIN5Eigen9TransformIdLi3ELi2ELi0EEENS1_17aligned_allocatorIS3_EEEE' already has type name 'AttributeMat44d'
+[thread 9228] [default] [E] Type 'N4loom12NullGeometryE' already has type name 'NullGeometry'
+[thread 9228] [default] [E] Type 'N4loom9PointDataE' already has type name 'PointData'
+[thread 9228] [default] [E] Type 'N4loom11PolygonMeshE' already has type name 'PolygonMesh'
+[thread 9228] [default] [E] Type 'N4loom5CurveE' already has type name 'Curve'
+[thread 9228] [default] [E] Type 'N4loom13BezierSurfaceE' already has type name 'BezierSurface'
+[thread 9228] [default] [E] Type 'N4loom14MultiWeightSetE' already has type name 'Weightmap'
+[thread 9228] [default] [E] Type 'N4loom9WeightSetE' already has type name 'WeightSet'
+[thread 9228] [default] [E] Type 'N4loom5ImageE' already has type name 'Image'
+[thread 9228] [default] [E] Type 'N4loom7Shape2dE' already has type name 'Shape2d'
+[thread 9228] [default] [E] Type 'N4loom7Shape2d10ParametersE' already has type name 'Shape2d::Parameters'
+dnhou log file : /user_data/.tmp/Houdini_Startup_dnhou_a90341f1-9549-47c1-8b0d-50f937b7f820.log
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/asset_packages/references/__init__.py:11: RuntimeWarning: to-Python converter for std::vector<std::string, std::allocator<std::string> > already registered; second conversion method ignored.
+  from . import AssetPackages_References_py as _importedModule
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/asset_packages/references/__init__.py:11: RuntimeWarning: to-Python converter for std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > > already registered; second conversion method ignored.
+  from . import AssetPackages_References_py as _importedModule
+/obj/rendersettings1/nyad_ropnet/environment_underwater_volume_L010_VOLUME Warning(1749): incorrect number of #s in 'round_value' for multiparm depth of 1
+<internal> Warning(1583): incorrect number of #s in 'round_value' for multiparm depth of 1
+/obj/rendersettings1/nyad_ropnet/environment_ocean_L010_BEAUTY Warning(1811): incorrect number of #s in 'round_value' for multiparm depth of 1
+<internal> Warning(1645): incorrect number of #s in 'round_value' for multiparm depth of 1
+Start logging astrohoudini to [astrohoudini]
+Skipping OTL installation
+In /tools/SITE/bundles/houdini-qlib/stable/0.2.16-r5-H18_0/houdini/18.0/scripts/456_dnpkg.cmd
+Sourcing /tools/SITE/bundles/houdini-qlib/stable/0.2.16-r5-H18_0/houdini/18.0/scripts/python/456_dnpkg.py
+Skipping OTL installation
+In /tools/SITE/bundles/houdini-qlib/stable/0.2.16-r5-H18_0/houdini/18.0/scripts/456_dnpkg.cmd
+Sourcing /tools/SITE/bundles/houdini-qlib/stable/0.2.16-r5-H18_0/houdini/18.0/scripts/python/456_dnpkg.py
+Couldn't find show based dependency at: /tools/NYAD/houdini/renderpass/config.json
+Found dependency at /tools/SITE/bundles/houdini-tdtools/stable/4.0.10-H18_0/houdini/renderpass/config.json
+Couldn't find show based dependency at: /tools/NYAD/houdini/renderpass/config.json
+Found dependency at /tools/SITE/bundles/houdini-tdtools/stable/4.0.10-H18_0/houdini/renderpass/config.json
+[dnhou.library_otls_startup:INFO ] Current Task (fx) does not match (groom), no Groom LIBRARY OTLs will be loaded.
+[dnhou.library_otls_startup:INFO ] Hidden 7 operator types (to be replaced by LIBRARY nodes): dneg::guideProcessDn::1.1, draw_rachis, feather_preview, feather_rotation_noise, generate_feather_groom, make_feather_sim_geo, make_feather_sim_geo::2
+[dnhou.library_otls_startup:INFO ] Current Task (fx) does not match (groom), no Groom LIBRARY OTLs will be loaded.
+[dnhou.library_otls_startup:INFO ] Hidden 7 operator types (to be replaced by LIBRARY nodes): dneg::guideProcessDn::1.1, draw_rachis, feather_preview, feather_rotation_noise, generate_feather_groom, make_feather_sim_geo, make_feather_sim_geo::2
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/pxr/Tf/__init__.py:85: RuntimeWarning: to-Python converter for std::vector<unsigned int, std::allocator<unsigned int> > already registered; second conversion method ignored.
+  from . import _tf
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/pxr/Tf/__init__.py:85: RuntimeWarning: to-Python converter for std::vector<double, std::allocator<double> > already registered; second conversion method ignored.
+  from . import _tf
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/pxr/Tf/__init__.py:85: RuntimeWarning: to-Python converter for std::vector<std::string, std::allocator<std::string> > already registered; second conversion method ignored.
+  from . import _tf
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/pxr/Tf/__init__.py:85: RuntimeWarning: to-Python converter for std::set<int, std::less<int>, std::allocator<int> > already registered; second conversion method ignored.
+  from . import _tf
+/builds/virtual_symtree/32b40b1826/virtual/lib/python/pxr/Sdf/__init__.py:24: RuntimeWarning: to-Python converter for std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > > already registered; second conversion method ignored.
+  import _sdf
+
+[dnhou.cacheout:INFO ] Unlocking CacheOut '/out/WaveTankFlipSim'.
+May 31 08:40:48 : vanc582b2 : houdini : _hou_geo : ================== rendering frame 1033 ==================
+
+9228: Fatal error: Segmentation fault (sent by pid 72)
+-- TRACEBACK BEGIN --
+Traceback from hbatch 18.0.774 (Compiled on linux-x86_64-gcc6.3):
+stackTrace() <libHoudiniUT.so>
+signalCallback(UTsignalHandlerArg) <libHoudiniUT.so>
+UT_Signal::UT_ComboSignalHandler::operator()(int, siginfo_t*, void*) const <libHoudiniUT.so>
+UT_Signal::processSignal(int, siginfo_t*, void*) <libHoudiniUT.so>
+_L_unlock_13 <libpthread.so.0>
+UT_VoxelArray<int>::deleteVoxels() <libHoudiniUT.so>
+UT_VoxelArray<int>::size(int, int, int) <libHoudiniUT.so>
+UT_FaceGradedOctreeLabels::initFromMask(UT_VoxelArray<float> const&, int) <libHoudiniUT.so>
+GAS_ProjectNonDivergentAdaptive::buildOctreeCellLabels(UT_FaceGradedOctreeLabels&, SIM_RawIndexField const&, SIM_RawField const*, SIM_RawField const**, int, int, int) const <libHoudiniSIM.so>
+GAS_ProjectNonDivergentAdaptive::solveGasSubclass(SIM_Engine&, SIM_Object*, SIM_Time, SIM_Time) <libHoudiniSIM.so>
+GAS_SubSolver::solveGas(SIM_Engine&, SIM_Object*, SIM_Time, SIM_Time) <libHoudiniSIM.so>
+GAS_SubSolver::solveObjectsSubclass(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_Solver::solveObjects(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_SolverEnable::solveObjectsSubclass(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_Solver::solveObjects(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+GAS_SubStep::solveObjectsSubclass(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_Solver::solveObjects(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_SolverMulti::solveObjectsSubclass(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_Solver::solveObjects(SIM_Engine&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_ObjectArray&, SIM_Time const&) <libHoudiniSIM.so>
+SIM_Engine::doSimulationStepForMetaObject(SIM_MetaObject&, SIM_Time const&, bool) <libHoudiniSIM.so>
+SIM_Engine::doSimulationStep(bool) <libHoudiniSIM.so>
+SIM_Engine::setSimulationTime(SIM_Time const&, bool, bool, bool) <libHoudiniSIM.so>
+DOP_Parent::setDOPTimeSubclass(SIM_Time const&) <libHoudiniOP1.so>
+SOP_Dopnet::setDOPTimeSubclass(SIM_Time const&) <libHoudiniOPZ.so>
+DOP_Parent::setDOPTime(SIM_Time const&) <libHoudiniOP1.so>
+SOP_DopImport::getDOPParent(SIM_Time&) <libHoudiniOPZ.so>
+SOP_DopImport::initializeObjectInfo(OP_Context&, DOP_Parent*&, sopDopObjectArray&, UT_StringArray&, bool&) <libHoudiniOPZ.so>
+SOP_DopImport::cookMySop(OP_Context&) <libHoudiniOPZ.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+OP_AutoLockInputs::lockInput(long, OP_Context&) <libHoudiniPRM.so>
+sop_NodeInputs::cookInput(long) <libHoudiniOP2.so>
+SOP_Node::cookMyselfAsVerb(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Switch::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int)::{lambda()#1}::operator()() const <libHoudiniOP2.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int) <libHoudiniOP2.so>
+SOP_BlockEndFor::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Switch::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+OP_AutoLockInputs::lockInput(long, OP_Context&) <libHoudiniPRM.so>
+sop_NodeInputs::cookInput(long) <libHoudiniOP2.so>
+SOP_Node::cookMyselfAsVerb(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int)::{lambda()#1}::operator()() const <libHoudiniOP2.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int) <libHoudiniOP2.so>
+SOP_BlockEndFor::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Output::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int)::{lambda()#1}::operator()() const <libHoudiniOP2.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int) <libHoudiniOP2.so>
+SOP_SubNet::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Switch::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+OP_AutoLockInputs::lockInput(long, OP_Context&) <libHoudiniPRM.so>
+sop_NodeInputs::cookInput(long) <libHoudiniOP2.so>
+SOP_Node::cookMyselfAsVerb(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Switch::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int)::{lambda()#1}::operator()() const <libHoudiniOP2.so>
+SOP_Node::getCookedGeoHandle(OP_Context&, int) <libHoudiniOP2.so>
+SOP_SubNet::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInput(unsigned int, OP_Context&) <libHoudiniOP2.so>
+SOP_Switch::cookMySop(OP_Context&) <libHoudiniOP2.so>
+SOP_Node::cookMe(OP_Context&) <libHoudiniOP2.so>
+OP_Node::cook(OP_Context&)::{lambda()#1}::operator()() const <libHoudiniPRM.so>
+OP_Node::cook(OP_Context&) <libHoudiniPRM.so>
+OP_Node::internalCookInput(OP_Context&, int, OP_Node&) <libHoudiniPRM.so>
+OP_Node::lockInputs(OP_Context&) <libHoudiniPRM.so>
+SOP_Node::lockInputs(OP_Context&) <libHoudiniOP2.so>
+-- TRACEBACK END --
+dnhscript: errors [
+9228: Fatal error: Segmentation fault (sent by pid 72)
+]
+dnhscript: exit=35584 hasfailed=1
+
+DNeg: hscript has crashed: [139]
+
+ALF_EXIT_STATUS %002
+WARN (vanc582b2) exit status - exit=139, signal=0 - returning 139
+
+[2023/05/31 08:41:24 exit with non-zero status code rc=139,  ["/tools/SITE/data/tractor/scripts/cgwrapper", "bob-world", "-d", "/builds/targets/gen-2023-04-24T08:51:53.717044", "/builds/world/0185d17b59", "--", "bob-unworld", "dnhscript", "-bob-world", "/builds/world/0185d17b59", "-command", "set -g ELEM=fx_sw2_109_0950_ocean CMDSEP set -g VER=001 CMDSEP set -g TAKE=01 CMDSEP set -g TFSTART=1033 CMDSEP set -g TFEND=1103 CMDSEP set GEOMOUTWRITEZEN=0 CMDSEP set GEOMOUTWRITEABC=0 CMDSEP dneg_geometry_render.cmd 1033 1103 1 /out/WaveTankFlipSim", "-shotpath", "/jobs/NYAD/sw2_109_0950", "-shotpathl", "/hosts/vanws1882/user_data/NYAD/sw2_109_0950", "-version", "18.0.774", "-alfred", "-v", "-q", "-i", "/jobs/NYAD/sw2_109_0950/source/bch/BCH_sw2_109_0950_fx_slice_0_WaveTankFlipSim_0_lod500_v001/script/BCH_sw2_109_0950_fx_slice_0_WaveTankFlipSim_0_lod500_v001.hip"]]
+
+====[2023/05/31 08:41:24 process complete, exit code: 139]====
